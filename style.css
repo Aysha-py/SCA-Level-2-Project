@@ -201,21 +201,50 @@ body {
 
 @media only screen and (max-width: 780px) {
   #main {
-    width: 100%;
+    width: 414%;
+    margin-left: 0px;
   }
 
-  #navbar a{
-  margin-left: 200px;
+  #navbar a {
+    margin-left: 200px;
   }
   #logo img {
     margin: 40px;
   }
-  .middle{
-    width: auto;
-    margin-left: 450px;
+  .middle {
+    text-align: center;
+    margin-right: 200px;
+  }
+  .middle-image {
+    width: 720px;
   }
   #middle-data {
     width: 80%;
-
+  }
+  .info {
+    margin-left: -200px;
+  }
+  .productive {
+    display: flex;
+    flex-direction: column;
+  }
+  #text {
+    margin-left: -200px;
+  }
+  .quotes img {
+    margin-left: 300px;
+  }
+  .squares {
+    display: flex;
+    flex-direction: column;
+  }
+  #squares1 {
+    margin: 30px;
+  }
+  #squares2 {
+    margin: 30px;
+  }
+  #squares3 {
+    margin: 30px;
   }
 }
