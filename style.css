@@ -201,18 +201,16 @@ body {
 
 @media only screen and (max-width: 780px) {
   #main {
-    width: 414%;
-    margin-left: 0px;
+    width: 400%;
   }
 
   #navbar a {
-    margin-left: 200px;
+    margin-left: 0;
   }
   #logo img {
     margin: 40px;
   }
   .middle {
-    text-align: center;
     margin-right: 200px;
   }
   .middle-image {
@@ -222,14 +220,15 @@ body {
     width: 80%;
   }
   .info {
-    margin-left: -200px;
+    margin-left: 400px;
   }
   .productive {
     display: flex;
     flex-direction: column;
+    margin-left: 400px;
   }
   #text {
-    margin-left: -200px;
+    margin-left: -100px;
   }
   .quotes img {
     margin-left: 300px;
@@ -247,4 +246,30 @@ body {
   #squares3 {
     margin: 30px;
   }
+  .footer {
+    max-width: 100%;
+  }
+  .footer img {
+    margin-left: 400px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  #first_row {
+    margin-left: 300px;
+  }
+  #secod_row {
+    margin-left: 100px;
+  }
+  #second_row h6 {
+    margin-left: 440px;
+  }
+}
+#about {
+  margin-left: 300px;
+}
+#contact {
+  margin-left: 300px;
 }
