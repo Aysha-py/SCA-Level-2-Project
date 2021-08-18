@@ -121,6 +121,7 @@ a {
   width: 33%;
   padding: 30px;
   margin: 40px;
+  background-color:hsl(218, 28%, 13%);
 }
 .squares img {
   width: auto;
